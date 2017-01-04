@@ -1,6 +1,6 @@
 [package]
-name = "llvm_wrapper"
-version = "0.1.0"
+name = "llvm_obj"
+version = "1.0.0"
 authors = ["WLaeder"]
 
 [dependencies]
