@@ -1,0 +1,7 @@
+[package]
+name = "llvm_wrapper"
+version = "0.1.0"
+authors = ["WLaeder"]
+
+[dependencies]
+llvm-sys="0.4.0"
