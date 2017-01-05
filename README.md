@@ -30,7 +30,7 @@ llvm_obj = "1.0.0"
 resulting object file to the file system. None of the core `llvm_sys`
 types are exposed. 
 
-```rustc
+```rust
 extern llvm_obj;
 
 ///Error Enum
