@@ -46,7 +46,7 @@ pub fn write_object_file(name: &str, ir: &str, path: &str) -> Result<(),Fault> {
 	
 	let mut mod = llvm_obj::LLVMod::new(name)?;
 	module.parse(ir)?;
-	let mut codegen = llvm_obj::Platform::new(None,None,None,None,None,None);
+	let mut codegen = llvm_obj::Platform::new(None,None,None,None,None,None)?;
 	module.write_object(path, &mut codegen)?;
 	Ok(())
 }
